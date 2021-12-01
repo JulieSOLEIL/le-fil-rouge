@@ -1,44 +1,30 @@
 /********Généralités**********/
-.contenu{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "titre titre"
-    "img_biblio01 txt_biblio01"
-    "img_biblio02 txt_biblio02";
-
-    border: 5px solid #9fc5e8;
-    border-radius: 5px;
-}
-.img_biblio01 img {
-    padding: 50px 30px;
-    /* background: no-repeat fixed 50% 50%; no repeat ne repete pas l'img, fixed pour qu'elle reste fixé tout en scrollant et 50% 50% pour voir l'img centrée */
-    /* background-size: cover; pour afficher l'img aussi grande que possible, et conservant ses proportions */
-    height: 499px;
-    grid-area: img_biblio01;
-}
-.img_biblio02 img {
-    padding:50px 30px;
-    /* background: no-repeat fixed 50% 50%; no repeat ne repete pas l'img, fixed pour qu'elle reste fixé tout en scrollant et 50% 50% pour voir l'img centrée */
-    /* background-size: cover; pour afficher l'img aussi grande que possible, et conservant ses proportions */
-    height: 499px;
-    grid-area: img_biblio02;
-}
-h1{
-    margin-bottom: ;
-    font-size: 3em;
-    font-weight: bold;
-    grid-area: titre;
-}
-.txt_biblio01{
-    margin: 50px 50px;
-    grid-area: txt_biblio01;
-}
-.txt_biblio02{
-    margin: 50px 50px;
-    grid-area: txt_biblio02;
-}
 h3{
     font-size: 30px;
 }
-
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.img01 img{
+    height: 426px;
+    width: 640px;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); */
+}
+.img02 img{
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); */
+}
+.section{
+    display: flex;
+    flex-wrap: wrap column;
+    gap: 10px;
+}
+.para_biblio01 p, .para_biblio02 p{
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-align: justify;
+}
