@@ -10,9 +10,9 @@ $page = 'header';
                 <li class="nav-txt"><a href="#">Mon panier <i class="fas fa-shopping-basket"></a></i></li>
                 <li class="dropdown"><a>Infos Pratiques <i class="fa fa-caret-down"></i></a>
                     <ul class="sous">
-                        <li><a class="sousTxt" href="#">Où nous trouver</a></li>
-                        <li><a class="sousTxt" href="#">Devenir membre</a></li>
-                        <li><a class="sousTxt" href="#">conditions générales</a></li>
+                        <li><a class="sousTxt" href="trouver.php">Où nous trouver</a></li>
+                        <li><a class="sousTxt" href="membre.php">Devenir membre</a></li>
+                        <li><a class="sousTxt" href="conditions.php">conditions générales</a></li>
                     </ul>
                 </li>
                 <li class="nav-txt"><a href="#">Nos Collections</a>

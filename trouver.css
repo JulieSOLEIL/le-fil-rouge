@@ -1,0 +1,12 @@
+.contenu{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+}
+.texte{
+    border: 2px rgb(86, 96, 114) solid ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 60px;
+}
