@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliothèque de L'Inconnu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/c19fce56fe.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php
-    include 'header.php';
+    include './pages/header.php';
     ?>
  <section id="presentation">
     <div class="introTxt">
@@ -29,7 +29,7 @@
     </div>
     <div id="Trait"></div>
     <div class="imgIntro">
-        <img src="img_library01.jpg" alt="library">
+        <img src="/images/img_library01.jpg" alt="library">
     </div>
     <div id="Trait"></div>
     <div class="introTxt">
@@ -51,7 +51,7 @@
     </div>
 </section>
 <?php
-include 'footer.php';
+include './pages/footer.php';
 ?>
 </body>
 </html>
